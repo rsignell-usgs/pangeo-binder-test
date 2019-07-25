@@ -3,8 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
-  - libgdal=2.4
-#  - tornado=5.1.1
+  - libgdal
   - nomkl
   - s3fs
   - gcsfs
@@ -15,6 +14,8 @@ dependencies:
   - zarr
   - h5py
   - h5netcdf
+  - holoviews=1.12.1
+  - cartopy
   - matplotlib
   - boto3
   - hvplot
